@@ -13,11 +13,11 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      - name: Install dependencies
-        run: yarn install
+    #   - name: Install dependencies
+    #     run: yarn install
 
-      - name: Build Storybook
-        run: yarn storybook
+    #   - name: Build Storybook
+    #     run: yarn storybook
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
